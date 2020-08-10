@@ -2,6 +2,7 @@
 
 @push('script')
 
+<link rel="stylesheet" href="{{asset('/sbadmin2/swal.min.js')}}">
 <script>
     Swal.fire({
         title: 'Berhasil!',
